@@ -1,0 +1,19 @@
+{
+  "name": "c2n3c3n3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meach-kaddour/Covitest-kaddour.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meach-kaddour/Covitest-kaddour/issues"
+  },
+  "homepage": "https://github.com/meach-kaddour/Covitest-kaddour#readme"
+}
