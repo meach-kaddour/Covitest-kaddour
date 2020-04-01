@@ -1,19 +1,27 @@
 {
-  "name": "c2n3c3n3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/meach-kaddour/Covitest-kaddour.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/meach-kaddour/Covitest-kaddour/issues"
-  },
-  "homepage": "https://github.com/meach-kaddour/Covitest-kaddour#readme"
+    "name": "c2n3c3n3",
+    "version": "1.0.0",
+    "description": "## Contexte pédagogique  👋",
+    "main": "index.js",
+    "scripts": {
+        "watch": "node-sass -w sass -o css",
+        "compaile": "node-sass sass -o css "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/meach-kaddour/Covitest-kaddour.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/meach-kaddour/Covitest-kaddour/issues"
+    },
+    "homepage": "https://github.com/meach-kaddour/Covitest-kaddour#readme",
+    "dependencies": {
+        "css": "^2.2.4",
+        "node": "^13.12.0",
+        "normalize": "^0.3.1",
+        "normalize.css": "^8.0.1",
+        "sass": "^1.26.3"
+    }
 }

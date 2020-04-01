@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  position: relative;
+  height: 3000px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-image: url(../image/bg-nav-1.png);
+  background-size: cover;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+header nav {
+  background-image: url(../image/bg-nav-2.png);
+  background-size: cover;
+  padding: .6rem 2rem .6rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 15vh;
+  width: 100%;
+}
+
+header nav .menu {
+  float: right;
+  width: 30%;
+}
+
+header nav .menu li {
+  display: inline-block;
+  padding: 1.5rem 1rem 0;
+}
+
+header nav .menu li a {
+  color: #1a519e;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header nav button {
+  width: 25%;
+  height: 2rem;
+  border: 1px solid #1a519e;
+  border-radius: 10px;
+  background-color: transparent;
+  font-style: oblique;
+  color: #1a519e;
+  padding: 0 0 0 .6em;
+  margin-top: 2%;
+}
+
+header nav button i {
+  padding: 0 .5em;
+  color: #f4d01a;
+}
+
+header .hero {
+  background-image: url(../image/bg-hero-3.png);
+  background-size: cover;
+  text-align: center;
+  height: 20vh;
+}
+
+header .hero__info {
+  font-size: 1.6rem;
+  color: black;
+  padding: 10% auto 5%;
+}
+
+header .hero__description {
+  width: 50%;
+  margin: 0 auto;
+  font-size: medium;
+  font-weight: 700;
+  color: #1078ad;
+  line-height: 30px;
+}
+/*# sourceMappingURL=main.css.map */
