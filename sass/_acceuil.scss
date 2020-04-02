@@ -5,13 +5,148 @@
     flex-direction: row;
     &__right {
         text-align: center;
-        margin-top: 2%;
+        margin: 2% auto;
         h3 {
-            width: 70%;
-            margin: auto;
             color: $headcolor;
-            font-weight: 900;
-            font-style: normal;
+            font-weight: 800;
         }
+        img {
+            margin-top: 3%;
+        }
+        p {
+            line-height: 1.5;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: $font-gris;
+        }
+        button {
+            width: 100%;
+            padding: 1% 0;
+            margin: 3% auto;
+            color: #fff;
+            font-size: large;
+            font-weight: 700;
+            letter-spacing: 1px;
+            background-color: $headcolor;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}
+
+.symptome {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 900;
+        font-style: bolder;
+        color: $headcolor;
+        margin-bottom: 5%;
+    }
+    .icon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        &__box {
+            p {
+                font-size: 1.6rem;
+                font-weight: 700;
+                font-style: bolder;
+                color: $black;
+                line-height: 1;
+            }
+        }
+        &__box2 {
+            margin-top: 5%;
+        }
+        &__box4 {
+            margin-top: 5%;
+        }
+    }
+}
+
+.recommandation {
+    background-color: $headcolor;
+    margin-top: 5%;
+    h2 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 1%;
+        text-align: center;
+        color: $font-num;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .recommandation__conseil {
+        p {
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 5%;
+            span {
+                color: $black;
+            }
+        }
+    }
+    .recommandation__appel {
+        text-align: center;
+        width: 40%;
+        margin-top: 3%;
+        p {
+            color: $bgcolor2;
+            font-size: 1.5rem;
+            font-weight: 800;
+            padding: 2%;
+        }
+        button {
+            background-color: $bgcolor2;
+            padding: .5rem 1rem;
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: $headcolor;
+            margin: 3% auto;
+            border-radius: 5px;
+            border: none;
+        }
+        div {
+            font-size: 1.2rem;
+            padding-bottom: 2%;
+            a {
+                color: #fff;
+                text-decoration: underline $bgcolor2 !important;
+                font-size: 1.3rem;
+                font-style: bolder;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
+
+.demarage-test {
+    background-image: url(../image/bg-nav-1.png);
+    background-size: cover;
+    background-color: $headcolor;
+    text-align: center;
+    padding: 1%;
+    p {
+        color: $font-color;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    button {
+        width: 40%;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #fff;
+        background-color: $headcolor;
+        border-radius: 3px;
+        border: none;
     }
 }
