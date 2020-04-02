@@ -1,0 +1,61 @@
+.recommandation {
+    background-color: $headcolor;
+    margin-top: 5%;
+    h2 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        padding: 1%;
+        text-align: center;
+        color: $font-num;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .recommandation__conseil {
+        p {
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 5%;
+            span {
+                color: $black;
+            }
+        }
+    }
+    .recommandation__appel {
+        text-align: center;
+        width: 40%;
+        margin-top: 3%;
+        p {
+            color: $bgcolor2;
+            font-size: 1.5rem;
+            font-weight: 800;
+            padding: 2%;
+        }
+        button {
+            background-color: $bgcolor2;
+            padding: .5rem 1rem;
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: $headcolor;
+            margin: 3% auto;
+            border-radius: 5px;
+            border: none;
+        }
+        div {
+            font-size: 1.2rem;
+            padding-bottom: 2%;
+            a {
+                color: #fff;
+                text-decoration: underline $bgcolor2 !important;
+                font-size: 1.3rem;
+                font-style: bolder;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

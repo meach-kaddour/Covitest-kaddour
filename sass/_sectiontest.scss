@@ -1,0 +1,35 @@
+.test {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    &__right {
+        text-align: center;
+        margin: 2% auto;
+        h3 {
+            color: $headcolor;
+            font-weight: 800;
+        }
+        img {
+            margin-top: 3%;
+        }
+        p {
+            line-height: 1.5;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: $font-gris;
+        }
+        button {
+            width: 100%;
+            padding: 1% 0;
+            margin: 3% auto;
+            color: #fff;
+            font-size: large;
+            font-weight: 700;
+            letter-spacing: 1px;
+            background-color: $headcolor;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+footer {
+    height: 50vh;
+    .logo {
+        width: 60px;
+        margin: 1% 45%;
+    }
+    .contenaur {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        &__menu {
+            width: 25%;
+            align-self: center;
+            margin-bottom: 5%;
+            ul {
+                text-align: center;
+                .btn__footer {
+                    height: 2rem;
+                    border: 1px solid $headcolor;
+                    border-radius: 5px;
+                    background-color: transparent;
+                    text-transform: capitalize;
+                    padding: 1% 5% 1% 2%;
+                    width: 6rem;
+                    a {
+                        text-transform: uppercase;
+                        color: $black;
+                        i {
+                            color: $bgcolor2;
+                            padding-left: 6%;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+                .menu__footer {
+                    margin: 5% auto;
+                    a {
+                        color: $headcolor;
+                        font-size: 1.3rem;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        line-height: 2px;
+                    }
+                }
+                .menu__footer2 {
+                    a {
+                        color: $black;
+                    }
+                }
+            }
+        }
+        &__contact {
+            width: 30%;
+            font-weight: 900;
+            h3 {
+                color: $headcolor;
+                font-size: 1.5rem;
+                font-weight: 800;
+            }
+            p {
+                color: $black;
+                font-size: 1.2rem;
+                span {
+                    color: $color5;
+                    font-size: 1.7rem;
+                    font-weight: 800;
+                }
+            }
+        }
+        &__discription {
+            width: 45%;
+            text-align: left;
+            color: $font-gris;
+            padding: 5% 2%;
+            font-size: .9rem;
+            letter-spacing: .5px;
+        }
+    }
+    .bg__footer {
+        background-color: $headcolor;
+        height: 5vh;
+    }
+}
