@@ -43,7 +43,7 @@ header nav .menu li .menu__1 {
 }
 
 header nav .menu li a {
-  color: #1078AD;
+  color: #045e8b;
   font-weight: 700;
   text-transform: capitalize;
   padding-right: 2.5rem;
@@ -52,7 +52,7 @@ header nav .menu li a {
 
 header nav button {
   height: 2rem;
-  border: 1px solid #1078AD;
+  border: 1px solid #045e8b;
   border-radius: 10px;
   background-color: transparent;
   text-transform: capitalize;
@@ -61,7 +61,7 @@ header nav button {
 }
 
 header nav button a {
-  color: #1078AD;
+  color: #045e8b;
 }
 
 header nav button a i {
@@ -111,7 +111,7 @@ header .hero__description {
 }
 
 .test__right h3 {
-  color: #1078AD;
+  color: #045e8b;
   font-weight: 800;
 }
 
@@ -134,7 +134,7 @@ header .hero__description {
   font-size: large;
   font-weight: 700;
   letter-spacing: 1px;
-  background-color: #1078AD;
+  background-color: #045e8b;
   border: none;
   border-radius: 5px;
 }
@@ -149,7 +149,7 @@ header .hero__description {
   font-size: 1.8rem;
   font-weight: 900;
   font-style: bolder;
-  color: #1078AD;
+  color: #045e8b;
   margin-bottom: 5%;
 }
 
@@ -179,7 +179,7 @@ header .hero__description {
 }
 
 .recommandation {
-  background-color: #1078AD;
+  background-color: #045e8b;
   margin-top: 5%;
 }
 
@@ -235,7 +235,7 @@ header .hero__description {
   padding: .5rem 1rem;
   font-size: 1.4rem;
   font-weight: 900;
-  color: #1078AD;
+  color: #045e8b;
   margin: 3% auto;
   border-radius: 5px;
   border: none;
@@ -258,7 +258,7 @@ header .hero__description {
 .demarage-test {
   background-image: url(../image/bg-nav-1.png);
   background-size: cover;
-  background-color: #1078AD;
+  background-color: #045e8b;
   text-align: center;
   padding: 1%;
 }
@@ -274,9 +274,114 @@ header .hero__description {
   font-size: 1.6rem;
   font-weight: 700;
   color: #fff;
-  background-color: #1078AD;
+  background-color: #045e8b;
   border-radius: 3px;
   border: none;
+}
+
+footer {
+  height: 50vh;
+}
+
+footer .logo {
+  width: 60px;
+  margin: 1% 45%;
+}
+
+footer .contenaur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+}
+
+footer .contenaur__menu {
+  width: 25%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 5%;
+}
+
+footer .contenaur__menu ul {
+  text-align: center;
+}
+
+footer .contenaur__menu ul .btn__footer {
+  height: 2rem;
+  border: 1px solid #045e8b;
+  border-radius: 5px;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 1% 5% 1% 2%;
+  width: 6rem;
+}
+
+footer .contenaur__menu ul .btn__footer a {
+  text-transform: uppercase;
+  color: black;
+}
+
+footer .contenaur__menu ul .btn__footer a i {
+  color: #f4d01a;
+  padding-left: 6%;
+  font-size: 1.2rem;
+}
+
+footer .contenaur__menu ul .menu__footer {
+  margin: 5% auto;
+}
+
+footer .contenaur__menu ul .menu__footer a {
+  color: #045e8b;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 2px;
+}
+
+footer .contenaur__menu ul .menu__footer2 a {
+  color: black;
+}
+
+footer .contenaur__contact {
+  width: 30%;
+  font-weight: 900;
+}
+
+footer .contenaur__contact h3 {
+  color: #045e8b;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+footer .contenaur__contact p {
+  color: black;
+  font-size: 1.2rem;
+}
+
+footer .contenaur__contact p span {
+  color: #359c52;
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+footer .contenaur__discription {
+  width: 45%;
+  text-align: left;
+  color: gray;
+  padding: 5% 2%;
+  font-size: .9rem;
+  letter-spacing: .5px;
+}
+
+footer .bg__footer {
+  background-color: #045e8b;
+  height: 5vh;
 }
 
 * {
@@ -290,7 +395,6 @@ header .hero__description {
 
 body {
   position: relative;
-  height: 3000px;
 }
 
 a {
