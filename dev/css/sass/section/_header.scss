@@ -1,18 +1,16 @@
 header {
-    background-image: url(../image/bg-nav-1.png);
-    background-size: cover;
-    display: block;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Cairo', sans-serif;
+    position: relative;
     nav {
-        background-image: url(../image/bg-nav-2.png);
-        background-size: cover;
+        background-image: url(../../../image/bg-nav-2.png);
+        background-size: 100%;
+        background-color: $bgcolor1;
         padding: .6rem 0rem .6rem 1rem;
         height: 10vh;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        position: fixed;
         .logo__sante {
             width: 4%;
         }
@@ -53,8 +51,8 @@ header {
         }
     }
     .hero {
+        position: relative;
         background-color: $bgcolor2;
-        background-size: cover;
         text-align: center;
         height: 20vh;
         &__info {

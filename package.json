@@ -4,32 +4,37 @@
     "description": "## Contexte pédagogique  👋",
     "main": "index.js",
     "scripts": {
-        "watch:sass": "node-sass sass/main.scss css/main.css -w",
-        "server": "live-server --port=8181 --browser=chrome",
-        "compiler:sass": "node-sass sass/main.scss css/main.comp.css",
-        "prefix:css": "postcss css/main.comp.css --use autoprefixer -o css/main.prefix.css",
-        "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
-        "building": "npm-run-all compiler:sass  prefix:css compress:css "
+        "clean": "rimraf dist/css",
+        "compToCss": "node-sass --output-style expanded --source-map=true dev/css/main.scss -o dist/css",
+        "toPrefixed": "postcss dist/css/main.css --use=autoprefixer --map=false --output=dist/css/main.css",
+        "toMinified": "cleancss --level=1 --source-map --source-map-inline-sources --output dist/css/main.css dist/css/main.css",
+        "onDevelopment": "npm run compToCss -- --watch",
+        "imageminfied": "imagemin dev/image/* -o dist/images -p",
+        "build": "npm run clean && npm run compToCss && npm run toPrefixed && npm run toMinified"
     },
+    "browserslist": [
+        "last 4 versions"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/meach-kaddour/Covitest-kaddour.git"
     },
-    "author": "",
+    "author": "meach",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/meach-kaddour/Covitest-kaddour/issues"
     },
     "homepage": "https://github.com/meach-kaddour/Covitest-kaddour#readme",
-    "dependencies": {
-        "css": "^2.2.4",
-        "node": "^13.12.0",
-        "normalize": "^0.3.1",
-        "normalize.css": "^8.0.1",
-        "sass": "^1.26.3"
-    },
     "devDependencies": {
-        "concurrently": "^5.1.0",
-        "node-sass": "^4.13.1"
-    }
+        "autoprefixer": "^9.7.5",
+        "clean-css-cli": "^4.3.0",
+        "concat": "^1.0.3",
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.2.0",
+        "imagemin": "^7.0.1",
+        "node-sass": "^4.13.1",
+        "npm-run-all": "^4.1.5",
+        "postcss-cli": "^7.1.0"
+    },
+    "dependencies": {}
 }
