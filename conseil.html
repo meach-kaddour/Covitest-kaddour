@@ -16,20 +16,26 @@
 <body>
     <!-- ///////////////////////////////////////////////////////////////////Start header -->
     <header>
-        <nav>
-            <img class="logo__sante" src="dev/image/logo__sante.png" alt="logo">
-            <ul class="menu">
-                <li><a class="menu__1" href="acceuil.html">Conseil</a></li>
-                <li><a class="menu__2" href="conseil.html">Acceuil</a></li>
-                <button type="submit"><a href="#arabe">عربي&nbsp;<i class='fas fa-globe'></i></a></button>
-            </ul>
+        <nav style="background-image: url(dev/image/bg-nav-1);">
+            <div class="navbar">
+
+                <img class="navbar__logo" src="dev/image/logo__sante.png" alt="logo">
+                <ul class="navbar__menu">
+                    <li><a style="color:rgb(4, 94, 139)" href=".html">Conseil</a></li>
+                    <li><a style="color:#141414" href="acceuil.html">Acceuil</a></li>
+                    <li><button class="navbar__btn" type="submit"><a href="#arabe">عربي&nbsp;<i class='fas fa-globe'></i></a></button></li>
+                </ul>
+            </div>
         </nav>
-        <div class="hero">
-            <h2 class="hero__info">LA DERNIÈRE INFO MÉDICALE</h1>
-                <p class="hero__description">La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.</br> N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien.</p>
-        </div>
+
     </header>
     <!-- /////////////////////////////////////////////////////////////////////////////:::End header -->
+    <!-- Start section hero////////////////////////////////////////////////////////// -->
+    <section class="hero">
+        <h2 class="hero__info">LA DERNIÈRE INFO MÉDICALE</h1>
+            <p class="hero__description">La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.</br> N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien.</p>
+    </section>
+    <!-- //////////////////////////////////////////////////////////////////////////End section hero -->
     <!-- Start section protection  -->
     <section class="protection">
         <h3>Comment se protéger et protéger les autres au quotidien ?</h3>
@@ -83,19 +89,19 @@
     <section class="symptome">
         <h1>Quels sont les symptômes à surveiller ?</h1>
         <div class="icon">
-            <div class="icon__box1 icon__box">
+            <div class=" icon__box">
                 <img src="dev/image/icon-1.png" alt="">
                 <p>Fièvre</p>
             </div>
-            <div class="icon__box2 icon__box">
+            <div class="icon__box">
                 <img src="dev/image/icon-2.png" alt="">
                 <p>Nausées </br>et vomissements</p>
             </div>
-            <div class="icon__box3 icon__box">
+            <div class=" icon__box">
                 <img src="dev/image/icon-3.png" alt="">
                 <p>Gêne </br>respiratoire</p>
             </div>
-            <div class="icon__box4 icon__box">
+            <div class="icon__box">
                 <img src="dev/image/icon-4.png" alt="">
                 <p>Toux et maux </br>de gorge</p>
             </div>
@@ -119,7 +125,7 @@
     <!-- End section transmision -->
     <!-- //////////////////////////////////////////////////////////://///////Strat section recommandation -->
     <section class="recommandation">
-        <h2>Recommandations officielles</h2>
+        <h2 class="recommandation__title">Recommandations officielles</h2>
         <div class="container">
             <div class="recommandation__conseil">
                 <p>
@@ -136,16 +142,16 @@
             <div class="recommandation__appel">
                 <p>Appel Gratuit</p>
                 <button type="submit">080 100 47 47</button>
-                <div><a href="http/www.sante.gov.ma" target="_blank">www.sante.gov.ma</a></div>
+                <div><a href="https/www.sante.gov.ma" target="_blank">www.sante.gov.ma</a></div>
             </div>
         </div>
     </section>
     <!-- ////////////////////////////////////////////////////////////////////End section recommandation -->
     <!--//////////////////////////////////////////////////////////////////////// Start section demarage-test -->
     <section class="demarage-test">
-        <p> Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptôme? </p>
-        <div><img src="dev/image/test-demarage.png" alt="protecter"></div>
-        <button type="submit"> Demarer le test</button>
+        <div class="demarage-test__txt"> Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptôme? </div>
+        <div><img class="demarage-test__img" src="dev/image/test-demarage.png" alt="protecter"></div>
+        <button class="demarage-test__btn" type="submit"> Demarer le test</button>
 
     </section>
 
@@ -156,9 +162,11 @@
         <div class="contenaur">
             <div class="contenaur__menu">
                 <ul>
-                    <button type="submit" class="btn__footer"><a href="#arabe">Fran&nbsp;<i class='fas fa-globe'></i></a></button>
-                    <li class="menu__footer1 menu__footer"><a href="acceuil.html">Acceuil</a></li>
-                    <li class="menu__footer2 menu__footer"><a href="conseil.html">Conseil</a></li>
+                    <ul>
+                        <li><button type="submit" class="btn__footer"><a href="#arabe">Fran&nbsp;<i class='fas fa-globe'></i></a></button></li>
+                        <li><a class="menu__footer" style="color:#000000" href="acceuil.html">Acceuil</a></li>
+                        <li><a class="menu__footer" style="color:rgb(4, 94, 139)" href="conseil.html">Conseil</a></li>
+                    </ul>
                 </ul>
             </div>
             <div class="contenaur__contact">
