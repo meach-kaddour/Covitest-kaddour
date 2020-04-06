@@ -1,32 +1,32 @@
 .symptome {
-    width: 50%;
-    margin: auto;
+    height: 100%;
+    width: 60%;
+    margin: 10% auto 0;
     text-align: center;
     h1 {
         font-size: 1.8rem;
         font-weight: 900;
         font-style: bolder;
         color: $headcolor;
-        margin-bottom: 5%;
+        margin: 5% auto;
     }
     .icon {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         &__box {
+            width: 100%;
+            height: 100%;
+            img {
+                max-width: 146px;
+                max-height: 146px;
+            }
             p {
                 font-size: 1.6rem;
                 font-weight: 700;
                 font-style: bolder;
                 color: $black;
-                line-height: 1;
             }
-        }
-        &__box2 {
-            margin-top: 5%;
-        }
-        &__box4 {
-            margin-top: 5%;
         }
     }
 }

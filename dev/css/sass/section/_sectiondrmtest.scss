@@ -1,21 +1,27 @@
 .demarage-test {
-    background-image: url(../image/bg-nav-1.png);
-    background-size: cover;
-    background-color: $bgcolor1;
+    background-color: #96C5DC;
     text-align: center;
-    padding: 1%;
-    p {
+    z-index: 9;
+    &__txt {
         color: $font-color;
         font-size: 1.5rem;
         font-weight: 800;
+        padding-top: .7rem;
     }
-    button {
+    &__img {
+        padding: 1% 0 1%;
+        z-index: 999 !important;
+    }
+    &__btn {
         width: 40%;
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         font-weight: 700;
         color: #fff;
         background-color: $headcolor;
-        border-radius: 3px;
+        border-radius: 2px;
         border: none;
+        height: 3rem;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
     }
 }

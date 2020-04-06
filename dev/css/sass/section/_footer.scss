@@ -11,7 +11,7 @@ footer {
         &__menu {
             width: 25%;
             align-self: center;
-            margin-bottom: 5%;
+            margin-bottom: 3%;
             ul {
                 text-align: center;
                 .btn__footer {
@@ -21,6 +21,7 @@ footer {
                     background-color: transparent;
                     text-transform: capitalize;
                     padding: 1% 5% 1% 2%;
+                    margin-bottom: 3%;
                     width: 6rem;
                     a {
                         text-transform: uppercase;
@@ -33,19 +34,10 @@ footer {
                     }
                 }
                 .menu__footer {
-                    margin: 5% auto;
-                    a {
-                        color: $headcolor;
-                        font-size: 1.3rem;
-                        font-weight: 700;
-                        text-transform: capitalize;
-                        line-height: 2px;
-                    }
-                }
-                .menu__footer2 {
-                    a {
-                        color: $black;
-                    }
+                    font-size: 1.1rem;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    line-height: 3;
                 }
             }
         }
@@ -74,6 +66,7 @@ footer {
             padding: 5% 2%;
             font-size: .9rem;
             letter-spacing: .5px;
+            line-height: 2;
         }
     }
     .bg__footer {
