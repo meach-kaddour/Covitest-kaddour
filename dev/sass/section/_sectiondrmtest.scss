@@ -14,14 +14,20 @@
     }
     &__btn {
         width: 40%;
-        font-size: 1.7rem;
-        font-weight: 700;
-        color: #fff;
         background-color: $headcolor;
         border-radius: 2px;
         border: none;
         height: 3rem;
-        letter-spacing: 1px;
         margin-bottom: 1rem;
+        a {
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+    }
+    &__btn:hover {
+        background-color: $font-color;
+        transition: ease-in 1s;
     }
 }

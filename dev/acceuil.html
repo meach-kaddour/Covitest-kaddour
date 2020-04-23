@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>corona-test/ conseil</title>
     <!-- link to css -->
-    <link rel="stylesheet" href="dist/css/main.css">
-
+    <link rel="stylesheet" href="../dist/css/main.css">
     <!-- link font style -->
     <link href="https://fonts.googleapis.com/css?family=Cairo|Poppins:400,700,800&display=swap" rel="stylesheet">
+
+    <title>Corona-test/ Acceuil</title>
 </head>
 
 <body>
     <!-- ///////////////////////////////////////////////////////////////////Start header -->
     <header>
-        <nav style="background-image: url(dev/image/bg-nav-1);">
+        <nav>
             <div class="navbar">
 
-                <img class="navbar__logo" src="dev/image/logo__sante.png" alt="logo">
+                <img class="navbar__logo" src="image/logo__sante.png" alt="logo">
                 <ul class="navbar__menu">
-                    <li><a style="color:rgb(4, 94, 139)" href=".html">Conseil</a></li>
-                    <li><a style="color:#141414" href="acceuil.html">Acceuil</a></li>
+                    <li><a class="navbar__link" href="conseil.html">Conseil</a></li>
+                    <li><a class="navbar__link navbar__link--active" href="acceuil.html">Acceuil</a></li>
                     <li><button class="navbar__btn" type="submit"><a href="#arabe">عربي&nbsp;<i class='fas fa-globe'></i></a></button></li>
                 </ul>
             </div>
@@ -35,93 +35,50 @@
         <p class="hero__description">La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.</br> N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien.</p>
     </section>
     <!-- //////////////////////////////////////////////////////////////////////////End section hero -->
-    <!-- Start section protection  -->
-    <section class="protection">
-        <h3>Comment se protéger et protéger les autres au quotidien ?</h3>
-        <div class="container">
-            <div class="row">
-                <div class="row__item ">
-                    <img class="row__item--hand" src="dev/image/item-1.png" alt="salut">
-                    <p>Saluez sans serrer la main,</br>n'embrassez personne</p>
-                </div>
-                <div class="row__item ">
-                    <img src="dev/image/item-2.png" alt="robiner">
-                    <p>Lavez-vous très </br>régulièrement les mains</p>
-                </div>
-                <div class="row__item ">
-                    <img src="dev/image/item-3.png" alt="masque">
-                    <p> Portez un masque </br>si vous êtes malade.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="row__item">
-                    <img src="dev/image/item-4.png" alt="gripe">
-                    <p>Toussez ou éternuez dans votre coude</br> ou dans un mouchoir</p>
-                </div>
-                <div class="row__item">
-                    <img src="dev/image/item-5.png" alt="bouche">
-                    <p>Évitez de toucher les yeux</br> Bouche de nez</p>
-                </div>
-                <div class="row__item">
-                    <img src="dev/image/item-6.png" alt="people">
-                    <p>Évitez les rassemblements</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class=" row__item row__item7">
-                    <img src="dev/image/item-7.png" alt="home">
-                    <p>Restez chez vous, évitez tout contact avec les autres.</br> Certaines personnes transmettent le virus sans en ressentir</br> les symptômes.</p>
-                </div>
-            </div>
+    <!-- ///////////////////////////////////////////////////////////////////start section test -->
+    <section class="test">
+        <div class="test__img">
+            <img src="image/medecin.png" alt="test-corona">
+        </div>
+        <div class="test__right">
+            <h3>Vous pensez avoir été exposé au </br>Coronavirus COVID-19 et avez des symptômes ?
+            </h3>
+            <img src="image/test-right.png" alt="image">
+            <p>Je reste vigilant ? </br>
+                Je programme une téléconsultation ?<br> J'appelle le 15 ?</br>
+                Faites le test pour répondre en citoyen</br>
+                éclairé selon vos symptômes.
+            </p>
+
+            <button type="submit"><a href="test.html"></a>
+              Demarer le test
+            </button>
         </div>
     </section>
-    <!-- End section protection -->
-    <section class="information">
-        <div class="information__text">
-            <h2>Informations</h2>
-            <p>Obtenez des informations à jour </br> en provenance de Gouvernement.fr</p>
-        </div>
-        <button class="information__btn " type="submit" onclick="">http://www.covidmaroc.ma</button>
-        <button class="information__btn " type="submit" onclick="">Ce qu’il faut savoir </button>
-    </section>
+    <!-- ////////////////////////////////////////////////////////////////////////:::End section test -->
     <!-- /////////////////////////////////////////////////////////////////////Start section symptome -->
     <section class="symptome">
         <h1>Quels sont les symptômes à surveiller ?</h1>
         <div class="icon">
-            <div class=" icon__box">
-                <img src="dev/image/icon-1.png" alt="">
+            <div class="icon__box">
+                <img src="image/icon-1.png" alt="">
                 <p>Fièvre</p>
             </div>
             <div class="icon__box">
-                <img src="dev/image/icon-2.png" alt="">
+                <img src="image/icon-2.png" alt="">
                 <p>Nausées </br>et vomissements</p>
             </div>
-            <div class=" icon__box">
-                <img src="dev/image/icon-3.png" alt="">
+            <div class="icon__box">
+                <img src="image/icon-3.png" alt="">
                 <p>Gêne </br>respiratoire</p>
             </div>
             <div class="icon__box">
-                <img src="dev/image/icon-4.png" alt="">
+                <img src="image/icon-4.png" alt="">
                 <p>Toux et maux </br>de gorge</p>
             </div>
         </div>
     </section>
     <!-- /////////////////////////////////////////////////////////////////////End sectino symptome -->
-    <!-- Start setion transmision -->
-    <section class="transmet">
-        <h3>Le Coronavirus COVID-19 se transmet</h3>
-        <div class="container">
-            <div class="container__box">
-                <img src="dev/image/transmet-1.png" alt="gouttelettes">
-                <p> Par la projection de gouttelettes</br> en postillonnant </p>
-            </div>
-            <div class="container__box">
-                <img src="dev/image/item-6.png" alt="Face à face">
-                <p>Face à face pendant </br>au moins 15 min </p>
-            </div>
-        </div>
-    </section>
-    <!-- End section transmision -->
     <!-- //////////////////////////////////////////////////////////://///////Strat section recommandation -->
     <section class="recommandation">
         <h2 class="recommandation__title">Recommandations officielles</h2>
@@ -149,25 +106,23 @@
     <!--//////////////////////////////////////////////////////////////////////// Start section demarage-test -->
     <section class="demarage-test">
         <div class="demarage-test__txt"> Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptôme? </div>
-        <div><img class="demarage-test__img" src="dev/image/test-demarage.png" alt="protecter"></div>
-        <button class="demarage-test__btn" type="submit"> Demarer le test</button>
+        <div><img class="demarage-test__img" src="image/test-demarage.png" alt="protecter"></div>
+        <button class="demarage-test__btn" type="submit"><a href="test.html">Demarer le test</a></button>
 
     </section>
 
-    <!--//////////////////////////////////////////////////////////////////////// End section demarage-test -->
-    <!-- Start footer -->
+    <!--//////////////////////////////////////////////////////////////////////// Ebd section demarage-test -->
+    <!-- Start footer //////////////////////////////////////////////////////////////////////////://-->
     <footer>
-        <img src="dev/image/logo__sante.png" alt="logo" class="logo">
+        <img src="image/logo__sante.png" alt="logo" class="logo">
         <div class="contenaur">
             <div class="contenaur__menu">
                 <ul>
-                    <ul>
-                        <li><button type="submit" class="btn__footer"><a href="#arabe">Fran&nbsp;<i class='fas fa-globe'></i></a></button></li>
-                        <li><a class="menu__footer" style="color:#000000" href="acceuil.html">Acceuil</a></li>
-                        <li><a class="menu__footer" style="color:rgb(4, 94, 139)" href="conseil.html">Conseil</a></li>
-                    </ul>
+                    <li><button type="submit" class="btn__footer"><a href="#arabe">Fran&nbsp;<i class='fas fa-globe'></i></a></button></li>
+                    <li><a class="menu__footer" class="navbar_link--acc" href="acceuil.html">Acceuil</a></li>
+                    <li><a class="menu__footer" class="navbar_link--con" href="conseil.html">Conseil</a></li>
                 </ul>
-            </div>
+            </div>ç
             <div class="contenaur__contact">
                 <h3>Contacts utiles</h3>
                 <p>Chiffre économique "Alo épidémie vigilance"</p>
@@ -185,6 +140,7 @@
     </footer>
     <!-- End footer -->
     <!-- link icon -->
+    <script src="dev/js/script.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </body>
 

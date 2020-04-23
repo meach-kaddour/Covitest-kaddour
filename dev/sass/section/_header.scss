@@ -1,5 +1,5 @@
 header {
-    background-image: url(../../../image/bg-nav-1.png);
+    background-image: url(../../dev/image/bg-nav-1.png)i;
     background-size: cover;
     position: fixed;
     top: 0;
@@ -19,7 +19,7 @@ header {
         &__menu {
             width: 25%;
             position: absolute;
-            right: 0;
+            right: -50px;
             align-items: center;
             li {
                 display: inline-block;
@@ -46,6 +46,12 @@ header {
                             font-size: 20px;
                         }
                     }
+                }
+                .navbar__link {
+                    color: $black;
+                }
+                .navbar__link--active {
+                    color: $headcolor;
                 }
             }
         }

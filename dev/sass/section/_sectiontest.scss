@@ -1,7 +1,6 @@
 .test {
     width: 95%;
     height: 100%;
-    margin: auto;
     display: flex;
     flex-direction: row;
     &__img {
@@ -11,7 +10,7 @@
         width: 100%;
         height: 60vh;
         text-align: center;
-        margin: 2% auto;
+        margin: 1% -4% 0 3%;
         h3 {
             width: 100%;
             font-size: 1.3rem;

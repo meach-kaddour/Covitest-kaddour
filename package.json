@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "clean": "rimraf dist/css",
-        "compToCss": "node-sass --output-style expanded --source-map=true dev/css/main.scss -o dist/css",
+        "compToCss": "node-sass --output-style expanded --source-map=true dev/sass/main.scss -o dist/css",
         "toPrefixed": "postcss dist/css/main.css --use=autoprefixer --map=false --output=dist/css/main.css",
         "toMinified": "cleancss --level=1 --source-map --source-map-inline-sources --output dist/css/main.css dist/css/main.css",
         "onDevelopment": "npm run compToCss -- --watch",
