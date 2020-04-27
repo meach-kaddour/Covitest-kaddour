@@ -28,38 +28,87 @@
 
     </header>
     <!-- /////////////////////////////////////////////////////////////////////////////:::End header -->
-    <!-- Start section quiz -->
-    <section class="quiz">
-        <div class="quiz__container">
-            <div class="quiz__information">
-                <div class="circle porte"></div>
+    <!-- Start  stepper -->
 
-                <p>Information</p>
-            </div>
-            <div class="question">
-                <div class="circle porte"></div>
-
-                <p>Questions</p>
-            </div>
-            <div class="resultat">
-                <div class="circle porte"></div>
-
-                <p>Resultat</p>
-            </div>
+    <div class="steper">
+        <div class="steper__information">
+            <div class="circle porte-par"></div>
+            <p>Information</p>
         </div>
-        <div class="quiz__reading">
-            <p class="titre">Préambule</p>
-            <p class="test">
+        <div class="steper__question">
+            <div class="circle"></div>
+            <p>Questions</p>
+        </div>
+        <div class="steper__resultat">
+            <div class="circle "></div>
+            <p>Resultat</p>
+        </div>
+    </div>
+    <!-- End steper -->
+    <!-- Start préambule -->
+    <section id="inform">
+        <div class="preambule">
+            <h3>Préambule</h3>
+            <p>
                 L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer à fluidifier la prise en charge des personnes par les services d’urgences pendant l’épidémie de Coronavirus COVID-19. L’exhaustivité, l’exactitude,
                 le caractère à jour des informations et contenus mis à disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.
             </p>
             <hr>
-            <p class="inves">Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision. Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.</p>
-
-
+            <p>Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision. Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.</p>
         </div>
     </section>
+    <button class="btn__lancer" type="submit">Demarer le test</button>
+    <!-- Start questionnaire -->
+    <section id="questionnaire">
 
+        <div class="barre">
+            <div><span class="question-number">1</span> /22</div>
+            <div class="progress__bar">
+                <div class="progress__question"></div>
+            </div>
+        </div>
+
+        <div class="quiz">
+            <h1 class="question"></h1>
+            <div class="reponse-inputs"></div>
+            <div class="btn-reponse">
+                <button class="precedent">Précédent</button>
+                <button class="suivant">Suivant</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- End questionaire -->
+
+
+    <footer>
+        <img src="image/logo__sante.png" alt="logo" class="logo">
+        <div class="contenaur">
+            <div class="contenaur__menu">
+                <ul>
+                    <li><button type="submit" class="btn__footer"><a href="#arabe">Fran&nbsp;<i class='fas fa-globe'></i></a></button></li>
+                    <li><a class="menu__footer" class="navbar_link--acc" href="acceuil.html">Acceuil</a></li>
+                    <li><a class="menu__footer" class="navbar_link--con" href="conseil.html">Conseil</a></li>
+                </ul>
+            </div>
+            <div class="contenaur__contact">
+                <h3>Contacts utiles</h3>
+                <p>Chiffre économique "Alo épidémie vigilance"</p>
+                <p><span>080 100 47 47</span></p>
+                <p>Aide médicale urgente</p>
+                <p><span>114</span></p>
+            </div>
+            <div class="contenaur__discription">
+                <p>Algorithme d'orientation mis à jour sur les recommandations en vigueur au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical, il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance Digitale
+                    contre le COVID-19 : @maladiecovid19</p>
+            </div>
+
+        </div>
+        <div class="bg__footer"></div>
+    </footer>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script src="dev/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>

@@ -10,3 +10,6 @@ for (var i = 0; i < link.length; i++) {
         this.className += " navbar__link--active";
     });
 }
+
+
+//
