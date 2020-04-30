@@ -30,13 +30,15 @@
             width: 70%;
             height: 3rem;
             padding: 1% 0;
-            color: #fff;
-            font-size: 1.4rem;
-            font-weight: 900;
-            letter-spacing: 1px;
             background-color: $headcolor;
             border: none;
             border-radius: 5px;
+            a {
+                color: #fff;
+                font-size: 1.4rem;
+                font-weight: 900;
+                letter-spacing: 1px;
+            }
         }
     }
 }
