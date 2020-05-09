@@ -125,13 +125,14 @@
         }
     }
     .quiz {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         font-weight: 800;
         .question {
             width: 80%;
             height: 100px;
             margin: auto;
-            padding: 1%;
+            padding: 2%;
+            text-align: center;
         }
         .reponse-inputs {
             display: flex;
@@ -183,12 +184,13 @@
         .btn-reponse {
             width: 90%;
             margin: auto;
+            padding: 2%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             button {
-                width: 5.5rem;
-                height: 2.5rem;
+                width: 6.5rem;
+                height: 3.5rem;
                 background-color: $headcolor;
                 color: #fff;
                 border: none;
