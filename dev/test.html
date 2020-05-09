@@ -30,19 +30,16 @@
     <!-- /////////////////////////////////////////////////////////////////////////////:::End header -->
     <!-- Start  stepper -->
 
-    <div id="steper">
-        <div class="steper__information">
-            <div class="circle porte-par"></div>
-            <p>Information</p>
-        </div>
-        <div class="steper__question">
-            <div class="circle"></div>
-            <p>Questions</p>
-        </div>
-        <div class="steper__resultat">
-            <div class="circle "></div>
-            <p>Resultat</p>
-        </div>
+    <div class="steper">
+        <h2 class="circle ">
+            Information
+        </h2>
+        <h2>
+            Questions
+        </h2>
+        <h2>
+            Resultat
+        </h2>
     </div>
     <!-- End steper -->
     <!-- Start préambule -->
@@ -57,7 +54,7 @@
             <p>Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision. Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.</p>
         </div>
 
-        <button class="btn__lancer" type="submit" onclick="showTest()">Demarer le test</button>
+        <button class="btn__lancer" type="submit">Demarer le test</button>
     </section>
     <!-- Start questionnaire -->
     <section id="questionnaire">
@@ -71,7 +68,9 @@
 
         <div class="quiz">
             <h1 class="question"></h1>
-            <div class="reponse-inputs"></div>
+            <div class="reponse-inputs">
+
+            </div>
             <div class="btn-reponse">
                 <button class="precedent">Précédent</button>
                 <button class="suivant">Suivant</button>

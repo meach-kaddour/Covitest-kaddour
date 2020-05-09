@@ -4,13 +4,16 @@ header {
     width: 100%;
     z-index: 4;
     .navbar {
-        background-color: #96C5DC;
+        background-color: rgb(150, 197, 220);
+        background-image: url(../image/bg-nav-2.png);
+        background-size: cover;
         padding: .6rem 0rem .6rem 1rem;
         height: 10vh;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        z-index: 999;
         &__logo {
             width: 4%;
         }
