@@ -61,7 +61,7 @@ function precedentBtn() {
         precBtn.style.visibility = 'visible';
 
     }
-}}
+}
 
 
 
