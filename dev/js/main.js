@@ -27,37 +27,68 @@ const precBtn = document.querySelector('.precedent');
 const nextBtn = document.querySelector('.suivant');
 
 
-const progresBar = document.querySelector('.barre');
+const progresBar = document.querySelector('.progress__question');
 const questionNumber = document.querySelector('.question-number');
 
 // Event Listner  
 dmrTest.addEventListener('click', showTest)
 
-nextBtn.addEventListener('click', nextQues)
+
 
 
 // Fonctions
-let currentQuestionIndex = 0
+let currentQuestionIndex = 0;
 
 function showTest() {
-    // second[0].classList.remove('selection')
-    // second[1].classList.add('selection')
     donnesTest.style.display = 'none';
     test.style.display = 'block';
     precedentBtn();
     showQuestion(questions[currentQuestionIndex]);
-    nextBtn.disabled = true
+
+    // Event Listner BtnS
+
+    nextBtn.addEventListener('click', nextQues);
+    precBtn.addEventListener('click', precedQues);
 }
 // Next Question
+
 function nextQues() {
     if (currentQuestionIndex < 21) {
-        currentQuestionIndex++;
         showQuestion(questions[currentQuestionIndex]);
+        currentQuestionIndex++;
+        addBarre(currentQuestionIndex);
         precedentBtn();
-        nextBtn.disabled = true;
-    }
-}
+
+    };
+};
 // Precedent Question
+function precedQues() {
+
+    showQuestion(questions[currentQuestionIndex]);
+    currentQuestionIndex--;
+    addBarre(currentQuestionIndex);
+    precedentBtn();
+
+
+};
+
+
+
+//  function pour add Number et barre width of question 
+
+
+function addBarre(x) {
+
+    const qNumber = x + 1
+
+    questionNumber.innerText = qNumber
+    progresBar.style.width = `calc(${qNumber} * calc(100% / 22))`
+
+}
+
+
+
+
 
 
 
