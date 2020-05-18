@@ -17,9 +17,6 @@ const dmrTest = document.querySelector('.btn__lancer');
 const donnesTest = document.querySelector('#inform');
 const test = document.querySelector('#questionnaire');
 
-const selection = document.querySelector('.circle');
-const second = document.querySelector('.steper');
-
 const currentQuestion = document.querySelector('.question');
 const answerInputs = document.querySelector('.reponse-inputs');
 
