@@ -21,7 +21,7 @@
                 <ul class="navbar__menu">
                     <li><a class="navbar__link" href="conseil.html">Conseil</a></li>
                     <li><a class="navbar__link" href="acceuil.html">Acceuil</a></li>
-                    <li><button class="navbar__btn" type="submit"><a href="#arabe">عربي&nbsp;<i class='fas fa-globe'></i></a></button></li>
+                    <li><button class="navbar__btn navbar__link--active" type="submit"><a href="#arabe">عربي&nbsp;<i class='fas fa-globe'></i></a></button></li>
                 </ul>
             </div>
         </nav>
@@ -30,19 +30,19 @@
     <!-- /////////////////////////////////////////////////////////////////////////////:::End header -->
     <!-- Start  stepper -->
 
-    <div id="steper">
-        <div class="steper__information">
-            <div class="circle porte-par"></div>
-            <p>Information</p>
-        </div>
-        <div class="steper__question">
-            <div class="circle"></div>
-            <p>Questions</p>
-        </div>
-        <div class="steper__resultat">
-            <div class="circle "></div>
-            <p>Resultat</p>
-        </div>
+    <div class="steper">
+        <h2>
+            <!-- <div class="circle"></div> -->
+            Information
+        </h2>
+        <h2>
+            <!-- <div></div> -->
+            Questions
+        </h2>
+        <h2>
+            <!-- <div></div> -->
+            Resultat
+        </h2>
     </div>
     <!-- End steper -->
     <!-- Start préambule -->
@@ -57,7 +57,7 @@
             <p>Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision. Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.</p>
         </div>
 
-        <button class="btn__lancer" type="submit" onclick="showTest()">Demarer le test</button>
+        <button class="btn__lancer" type="submit">Demarer le test</button>
     </section>
     <!-- Start questionnaire -->
     <section id="questionnaire">
@@ -71,7 +71,9 @@
 
         <div class="quiz">
             <h1 class="question"></h1>
-            <div class="reponse-inputs"></div>
+            <div class="reponse-inputs">
+
+            </div>
             <div class="btn-reponse">
                 <button class="precedent">Précédent</button>
                 <button class="suivant">Suivant</button>
@@ -111,5 +113,8 @@
         <div class="bg__footer"></div>
     </footer>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script> -->
+
     <script src="js/main.js"></script>
 </body>
